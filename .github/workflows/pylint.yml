@@ -1,0 +1,30 @@
+name: Static Analysis
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  pylint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install pylint
+        run: pip install pylint
+
+      - name: Lint P1 — computeStatistics
+        run: pylint P1/source/computeStatistics.py
+
+      - name: Lint P2 — convertNumbers
+        run: pylint P2/source/convertNumbers.py
+
+      - name: Lint P3 — wordCount
+        run: pylint P3/source/wordCount.py
