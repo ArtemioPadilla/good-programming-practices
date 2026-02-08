@@ -25,7 +25,7 @@ def _parse_word_count_output(filepath):
     with open(filepath, encoding="utf-8") as fh:
         for line in fh:
             line = line.rstrip("\n")
-            if not line.strip() or "time" in line.lower():
+            if not line.strip() or line.lower().startswith("elapsed time"):
                 continue
             for sep in ("\t", ":"):
                 if sep in line:

@@ -29,8 +29,9 @@ def run_program(program_path, input_file, working_dir=None):
 
 def run_pylint(program_path):
     """Run pylint on *program_path* and return the numeric score."""
+    import sys as _sys  # noqa: C0415 — avoid top-level shadow
     result = subprocess.run(
-        ["pylint", program_path],
+        [_sys.executable, "-m", "pylint", program_path],
         capture_output=True,
         text=True,
         timeout=60,

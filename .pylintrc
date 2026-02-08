@@ -1,0 +1,3 @@
+[BASIC]
+# Assignment requires camelCase filenames (computeStatistics.py, etc.)
+module-naming-style=any
