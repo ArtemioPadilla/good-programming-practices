@@ -1,0 +1,74 @@
+=== TC1 ===
+COUNT: 400
+MEAN: 242.32
+MEDIAN: 239.5
+MODE: 393.0
+SD: 145.25810683056557
+VARIANCE: 21152.79959899749
+Elapsed Time: 0.001287 seconds
+
+=== TC2 ===
+COUNT: 1977
+MEAN: 250.7840161861406
+MEDIAN: 247.0
+MODE: 230.0
+SD: 144.17131868884059
+VARIANCE: 20795.88804398353
+Elapsed Time: 0.001400 seconds
+
+=== TC3 ===
+COUNT: 12624
+MEAN: 249.77621989860583
+MEDIAN: 249.0
+MODE: 94.0
+SD: 145.31784980917962
+VARIANCE: 21118.950393821862
+Elapsed Time: 0.004782 seconds
+
+=== TC4 ===
+COUNT: 12624
+MEAN: 149.00267347908746
+MEDIAN: 147.75
+MODE: 123.75
+SD: 130.41441961308894
+VARIANCE: 17009.26821851143
+Elapsed Time: 0.005582 seconds
+
+=== TC5 ===
+Error: 'ABA' is not a valid number, skipping.
+Error: '23,45' is not a valid number, skipping.
+Error: '11;54' is not a valid number, skipping.
+Error: 'll' is not a valid number, skipping.
+COUNT: 311
+MEAN: 241.49511400651465
+MEDIAN: 241.0
+MODE: 393.0
+SD: 145.46484786056646
+VARIANCE: 21229.17236166996
+Elapsed Time: 0.001473 seconds
+
+=== TC6 ===
+COUNT: 3000
+MEAN: 1.8790659927977473e+20
+MEDIAN: 1.88008049965543e+20
+MODE: N/A
+SD: 1.0738205017380998e+20
+VARIANCE: 1.1534749616069338e+40
+Elapsed Time: 0.005975 seconds
+
+=== TC7 ===
+Error: 'ABBA' is not a valid number, skipping.
+Error: 'ERROR' is not a valid number, skipping.
+COUNT: 12769
+MEAN: 2.474673954997149e+20
+MEDIAN: 2.4664097307429e+20
+MODE: N/A
+SD: 1.4460564700984705e+20
+VARIANCE: 2.091243115380632e+40
+Elapsed Time: 0.020211 seconds
+
+=== PYLINT ===
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.88/10, +0.12)
+
