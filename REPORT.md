@@ -1,5 +1,11 @@
 # Actividad 4.2 — Ejercicios de Programación
 
+**Alumno:** Artemio Santiago Padilla Robles
+**Matrícula:** A01796613
+**Repositorio:** [github.com/ArtemioPadilla/good-programming-practices](https://github.com/ArtemioPadilla/good-programming-practices)
+
+---
+
 ## Descripción
 
 Se implementaron tres programas en Python para procesar archivos de datos, siguiendo
